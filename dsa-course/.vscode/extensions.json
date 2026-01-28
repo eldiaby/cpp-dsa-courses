@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",       // C/C++ Extension
+        "ms-vscode.cmake-tools",    // لو هتستخدم CMake بعدين
+        "ms-vscode.cpptools-extension-pack", // إضافات C++ مفيدة
+        "streetsidesoftware.code-spell-checker", // اختياري للكتابة
+        "ms-vsliveshare.vsliveshare" // لو عايز شغل تعاوني
+    ]
+}

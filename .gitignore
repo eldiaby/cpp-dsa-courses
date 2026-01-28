@@ -1,0 +1,84 @@
+# =========================
+# C / C++ Build Files
+# =========================
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.a
+*.so
+*.dll
+
+# Executables (common names)
+main
+app
+test
+program
+
+# =========================
+# CMake
+# =========================
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+install_manifest.txt
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =========================
+# OS / System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Debug / Runtime
+# =========================
+*.dSYM/
+*.stackdump
+
+# =========================
+# Package Managers (future-proof)
+# =========================
+node_modules/
+.env
+.env.*
+
+# =========================
+# Python (just in case later)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# =========================
+# Ignore everything inside build folders anywhere
+# =========================
+**/build/**
