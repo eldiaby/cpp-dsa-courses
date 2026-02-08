@@ -1,10 +1,10 @@
 #include <iostream>
 
 int main() {
-  const float small_room_price {25.0};
-  const float large_room_price {30.0};
-  const float tax_rate {0.06};
-  const short estimate_valid_days {30}; // in Days
+  constexpr float small_room_price {25.0};
+  constexpr float large_room_price {30.0};
+  constexpr float tax_rate {0.06};
+  constexpr short estimate_valid_days {30}; // in Days
 
   std::cout << "Hello, welcome to Frank's Cleaning Services" << std::endl;
 
